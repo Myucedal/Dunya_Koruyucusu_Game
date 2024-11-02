@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 4bfe3472bab4c3e45bbf72d0573cbecd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2393354780829641551
+    second: Colorful tropical parrots flying cartoon illustration set1_0
+  - first:
+      213: -352365933450823796
+    second: Colorful tropical parrots flying cartoon illustration set1_1
+  - first:
+      213: -6375771576559957671
+    second: Colorful tropical parrots flying cartoon illustration set1_2
+  - first:
+      213: -6378258212162608250
+    second: Colorful tropical parrots flying cartoon illustration set1_3
+  - first:
+      213: -7594405878736056539
+    second: Colorful tropical parrots flying cartoon illustration set1_4
+  - first:
+      213: -6448315423404839335
+    second: Colorful tropical parrots flying cartoon illustration set1_5
+  - first:
+      213: 2318729533968576889
+    second: Colorful tropical parrots flying cartoon illustration set1_6
+  - first:
+      213: -5294554818712552141
+    second: Colorful tropical parrots flying cartoon illustration set1_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1134
+        width: 1207
+        height: 969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b49a23e18819ced0800000000000000
+      internalID: -2393354780829641551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_1
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1211
+        width: 1284
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87f6b9ec052c1bf0800000000000000
+      internalID: -352365933450823796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_2
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 1275
+        width: 1335
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9598c1a0885b487a0800000000000000
+      internalID: -6375771576559957671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_3
+      rect:
+        serializedVersion: 2
+        x: 4780
+        y: 1085
+        width: 1296
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683645213ffdb77a0800000000000000
+      internalID: -6378258212162608250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 74
+        width: 1221
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f8cc517104b9690800000000000000
+      internalID: -7594405878736056539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_5
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 220
+        width: 1157
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e284c794bf286a0800000000000000
+      internalID: -6448315423404839335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_6
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 390
+        width: 1158
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971776ad938cd2020800000000000000
+      internalID: 2318729533968576889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful tropical parrots flying cartoon illustration set1_7
+      rect:
+        serializedVersion: 2
+        x: 4741
+        y: 225
+        width: 1158
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d3ec2b176f586b0800000000000000
+      internalID: -5294554818712552141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Colorful tropical parrots flying cartoon illustration set1_0: -2393354780829641551
+      Colorful tropical parrots flying cartoon illustration set1_1: -352365933450823796
+      Colorful tropical parrots flying cartoon illustration set1_2: -6375771576559957671
+      Colorful tropical parrots flying cartoon illustration set1_3: -6378258212162608250
+      Colorful tropical parrots flying cartoon illustration set1_4: -7594405878736056539
+      Colorful tropical parrots flying cartoon illustration set1_5: -6448315423404839335
+      Colorful tropical parrots flying cartoon illustration set1_6: 2318729533968576889
+      Colorful tropical parrots flying cartoon illustration set1_7: -5294554818712552141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

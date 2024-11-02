@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Floor
+  - puan
+  - engel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - platforms
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: backgraund
+    uniqueID: 393128585
+    locked: 0
+  - name: platforms
+    uniqueID: 1536790447
+    locked: 0
+  - name: char
+    uniqueID: 4107960799
+    locked: 0
+  - name: UI
+    uniqueID: 2999820297
+    locked: 0
+  m_RenderingLayers:
+  - Default

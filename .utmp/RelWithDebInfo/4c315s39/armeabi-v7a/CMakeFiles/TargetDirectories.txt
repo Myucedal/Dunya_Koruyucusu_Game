@@ -1,0 +1,5 @@
+C:/unity dosyalari/Dunya_Koruyucusu/.utmp/RelWithDebInfo/4c315s39/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/unity dosyalari/Dunya_Koruyucusu/.utmp/RelWithDebInfo/4c315s39/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/unity dosyalari/Dunya_Koruyucusu/.utmp/RelWithDebInfo/4c315s39/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/unity dosyalari/Dunya_Koruyucusu/.utmp/RelWithDebInfo/4c315s39/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/unity dosyalari/Dunya_Koruyucusu/.utmp/RelWithDebInfo/4c315s39/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
