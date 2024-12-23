@@ -47,6 +47,12 @@ TagManager:
   - name: backgraund
     uniqueID: 393128585
     locked: 0
+  - name: wallpapper
+    uniqueID: 1631561799
+    locked: 0
+  - name: leveldesign
+    uniqueID: 3840729357
+    locked: 0
   - name: platforms
     uniqueID: 1536790447
     locked: 0
