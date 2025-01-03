@@ -12,7 +12,7 @@ public class CharMove_G2 : MonoBehaviour
     public float jumpForce = 300f;
     public int jumpCount = 0;
     public float moveSpeed = 5f;
-    public Color newColor = Color.red;
+    public Color newColor = Color.blue;
     private Color originalColor;
     private Image buttonImage;
     [SerializeField] private LayerMask hitlayer;
@@ -66,15 +66,15 @@ public class CharMove_G2 : MonoBehaviour
             Jump();
         }
 
-    //    if (rightPressed)
-    //    {
-    //        transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-    //    }
+        if (rightPressed)
+        {
+            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+        }
 
-    //    if (leftPressed)
-    //    {
-    //        transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-    //    }
+        if (leftPressed)
+        {
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+        }
     }
 
     void Jump()

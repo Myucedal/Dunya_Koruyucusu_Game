@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2_Musluk.unity
     guid: 11e9fa4c82038934ead8e3894fafea13
+  - enabled: 1
+    path: Assets/3_Baca.unity
+    guid: 9307c9792be1ee84696b1e7413f63a4a
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3e635ba4d9be49446aaa6d154ac6ba02, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4480d623354b5ee4095192a60b6eda83, type: 2}
