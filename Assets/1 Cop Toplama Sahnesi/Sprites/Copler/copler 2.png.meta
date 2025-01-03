@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: 1c7d461f1d3d7024d9a540868d9233dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5547943426721484501
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_0
+  - first:
+      213: 9124363349040343801
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_1
+  - first:
+      213: -464274556089354201
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_2
+  - first:
+      213: -5191978582569188386
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_3
+  - first:
+      213: 991436536450632990
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_4
+  - first:
+      213: -3910893688580934531
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_5
+  - first:
+      213: -3366038777316115420
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_6
+  - first:
+      213: 8235702774322244333
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_7
+  - first:
+      213: -3868609972117812468
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_8
+  - first:
+      213: -5719264066724636045
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_9
+  - first:
+      213: 7359233425737848660
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_10
+  - first:
+      213: 3905153089451953054
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_11
+  - first:
+      213: -6305610461940638635
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_12
+  - first:
+      213: -7708548648439758532
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_13
+  - first:
+      213: -4182429766477979015
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_14
+  - first:
+      213: -3734232446142739720
+    second: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 493
+        width: 91
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de82bff6214efc40800000000000000
+      internalID: 5547943426721484501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_3
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 486
+        width: 114
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed30788ccf262f7b0800000000000000
+      internalID: -5191978582569188386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 377
+        width: 75
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74f0d939e6b9b9c0800000000000000
+      internalID: -3910893688580934531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 373
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea2d23e9081b4270800000000000000
+      internalID: 8235702774322244333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 257
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45719405fcf312660800000000000000
+      internalID: 7359233425737848660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 151
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b8d426b04e13630800000000000000
+      internalID: 3905153089451953054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 43
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c314eeb88dbb50590800000000000000
+      internalID: -7708548648439758532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_14
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 39
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9726f0f694605f5c0800000000000000
+      internalID: -4182429766477979015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: da5a18040e4ea2641a2f5861dcb00dc5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_0: 5547943426721484501
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_10: 7359233425737848660
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_11: 3905153089451953054
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_13: -7708548648439758532
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_14: -4182429766477979015
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_3: -5191978582569188386
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_5: -3910893688580934531
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_7: 8235702774322244333
+      depositphotos_145597113-stock-illustration-household-waste-garbage-icons-vector_9: -5719264066724636045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 062a8871667e96841848f27333961404
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2772776800374411082
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_0"
+  - first:
+      213: 5529775386125669421
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_1"
+  - first:
+      213: 8153612512772415330
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_2"
+  - first:
+      213: 8009098365567923050
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_3"
+  - first:
+      213: 7617828834170002569
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_4"
+  - first:
+      213: -6097998186313886682
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_5"
+  - first:
+      213: -538445280852127038
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_6"
+  - first:
+      213: 2882250149513616606
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_7"
+  - first:
+      213: -1842208280024290579
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_8"
+  - first:
+      213: 1520883641518915916
+    second: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_0"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 125
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fc2c32fc1ea7620800000000000000
+      internalID: 2772776800374411082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_1"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 136
+        width: 100
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2418b96a65bdbc40800000000000000
+      internalID: 5529775386125669421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_2"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 147
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fdaf37163772170800000000000000
+      internalID: 8153612512772415330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_3"
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 150
+        width: 100
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6376da8788062f60800000000000000
+      internalID: 8009098365567923050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_4"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 136
+        width: 100
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c5e64b6f6f7b960800000000000000
+      internalID: 7617828834170002569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_5"
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 19
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624d8c745fe8f5ba0800000000000000
+      internalID: -6097998186313886682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_6"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 28
+        width: 100
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2d2dfaede0788f0800000000000000
+      internalID: -538445280852127038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_7"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 21
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc539b7d3fcff720800000000000000
+      internalID: 2882250149513616606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_8"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 16
+        width: 99
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea6eda64592f66e0800000000000000
+      internalID: -1842208280024290579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_9"
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 22
+        width: 100
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41007d2d934b1510800000000000000
+      internalID: 1520883641518915916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_0": 2772776800374411082
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_1": 5529775386125669421
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_2": 8153612512772415330
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_3": 8009098365567923050
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_4": 7617828834170002569
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_5": -6097998186313886682
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_6": -538445280852127038
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_7": 2882250149513616606
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_8": -1842208280024290579
+      "Ekran g\xF6r\xFCnt\xFCs\xFC 2024-10-23 233458_9": 1520883641518915916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

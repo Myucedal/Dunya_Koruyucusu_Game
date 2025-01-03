@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/0_AnaMenu.unity
     guid: 2f0d6b30743d3d240a8d35ceddf41993
   - enabled: 1
-    path: Assets/Scenes/CopToplama.unity
+    path: Assets/1_CopToplama.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/2_Musluk.unity
+    guid: 11e9fa4c82038934ead8e3894fafea13
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 3e635ba4d9be49446aaa6d154ac6ba02, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4480d623354b5ee4095192a60b6eda83, type: 2}
