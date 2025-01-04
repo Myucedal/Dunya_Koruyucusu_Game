@@ -16,68 +16,70 @@ public class CharMove : MonoBehaviour
     {
         bool leftSideTouched = false;
         bool rightSideTouched = false;
-
-        if (Input.touchCount > 0)
+        if (BacaDegistir.instance.incollision == false)
         {
-            for (int i = 0; i < Input.touchCount; i++)
+            if (Input.touchCount > 0)
             {
-                Touch touch = Input.GetTouch(i);
-                Vector3 touchPosition = touch.position;
-                float screenWidth = Screen.width;
-
-                if (touchPosition.x <= screenWidth / 2)
+                for (int i = 0; i < Input.touchCount; i++)
                 {
+                    Touch touch = Input.GetTouch(i);
+                    Vector3 touchPosition = touch.position;
+                    float screenWidth = Screen.width;
+
+                    if (touchPosition.x <= screenWidth / 2)
+                    {
+                        leftSideTouched = true;
+                    }
+                    else
+                    {
+                        rightSideTouched = true;
+                    }
+                }
+            }
+
+            // Mouse Kontrolü
+            if (Input.GetMouseButton(0)) // Sol týk
+            {
+                if (Input.mousePosition.x <= Screen.width / 2)
+                {
+                    Debug.Log("sol týk");
                     leftSideTouched = true;
                 }
-                else
+            }
+            if (Input.GetMouseButton(1)) // Sað týk
+            {
+                if (Input.mousePosition.x > Screen.width / 2)
                 {
+                    Debug.Log("sag týk");
                     rightSideTouched = true;
                 }
             }
         }
-
-        // Mouse Kontrolü
-        if (Input.GetMouseButton(0)) // Sol týk
-        {
-            if (Input.mousePosition.x <= Screen.width / 2)
+            if (rb.velocity.y > 0)
             {
-                Debug.Log("sol týk");
-                leftSideTouched = true;
+                animator.SetBool("isRising", true);
+                animator.SetBool("isFalling", false);
             }
-        }
-        if (Input.GetMouseButton(1)) // Sað týk
-        {
-            if (Input.mousePosition.x > Screen.width / 2)
+            else if (rb.velocity.y < 0)
             {
-                Debug.Log("sag týk");
-                rightSideTouched = true;
+                animator.SetBool("isRising", false);
+                animator.SetBool("isFalling", true);
             }
-        }
+            else
+            {
+                animator.SetBool("isRising", false);
+                animator.SetBool("isFalling", false);
+            }
 
-        if (rb.velocity.y > 0)
-        {
-            animator.SetBool("isRising", true);
-            animator.SetBool("isFalling", false);
-        }
-        else if (rb.velocity.y < 0)
-        {
-            animator.SetBool("isRising", false);
-            animator.SetBool("isFalling", true);
-        }
-        else
-        {   
-            animator.SetBool("isRising", false);
-            animator.SetBool("isFalling", false);
-        }
-
-        // Kuvvet Uygulama
-        if (leftSideTouched)
-        {
-            rb.AddForce(new Vector2(horizontalSpeed, upSpeed), ForceMode2D.Impulse);
-        }
-        if (rightSideTouched)
-        {
-            rb.AddForce(new Vector2(-horizontalSpeed, upSpeed), ForceMode2D.Impulse);
+            // Kuvvet Uygulama
+            if (leftSideTouched)
+            {
+                rb.AddForce(new Vector2(horizontalSpeed, upSpeed), ForceMode2D.Impulse);
+            }
+            if (rightSideTouched)
+            {
+                rb.AddForce(new Vector2(-horizontalSpeed, upSpeed), ForceMode2D.Impulse);
+            }
         }
     }
-}
+
