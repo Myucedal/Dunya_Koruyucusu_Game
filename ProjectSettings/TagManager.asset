@@ -61,6 +61,9 @@ TagManager:
   - name: char
     uniqueID: 4107960799
     locked: 0
+  - name: particle
+    uniqueID: 4196280953
+    locked: 0
   - name: UI
     uniqueID: 2999820297
     locked: 0

@@ -7,6 +7,7 @@ public class GameManager3 : MonoBehaviour
 {
     public static GameManager3 instance;
     public GameObject paneldead;
+    public GameObject Gameoverpanel;
     public Transform Maincam;
     public ParticleSystem particldead;
 
@@ -14,6 +15,8 @@ public class GameManager3 : MonoBehaviour
     {
         instance = this;
     }
+
+    
 
     public void DiePlayer()
     {
@@ -30,12 +33,32 @@ public class GameManager3 : MonoBehaviour
         yield return new WaitForSeconds(2f);
         paneldead.SetActive(true);
     }
+    public IEnumerator WaitoverPanel()
+    {
+        yield return new WaitForSeconds(1.9f);
+        Gameoverpanel.SetActive(true);
+        Time.timeScale = 0;
+    }
    
     public void RestartGame()
     {
         Debug.Log("restart calisti");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("0_AnaMenu");
+
+    }
+
+    public void Gameover()
+    {
+        if (BacaDegistir.instance.score == 5)
+        {
+            StartCoroutine(WaitoverPanel());
+        }
     }
 }
     

@@ -7,6 +7,8 @@ public class CharMove : MonoBehaviour
     public float horizontalSpeed = 0.03f;
     public static CharMove instance;
     public Animator animator;
+    public ParticleSystem leftparticle;
+    public ParticleSystem rightparticle;
 
     private void Awake()
     {
@@ -28,10 +30,21 @@ public class CharMove : MonoBehaviour
 
                     if (touchPosition.x <= screenWidth / 2)
                     {
+                        if (!leftparticle.isPlaying)
+                        {
+
+                            rightparticle.Stop();
+                            leftparticle.Play();
+                        }
                         leftSideTouched = true;
                     }
                     else
                     {
+                        if (!rightparticle.isPlaying)
+                        {
+                            leftparticle.Stop();
+                            rightparticle.Play();
+                        }
                         rightSideTouched = true;
                     }
                 }
@@ -43,6 +56,13 @@ public class CharMove : MonoBehaviour
                 if (Input.mousePosition.x <= Screen.width / 2)
                 {
                     Debug.Log("sol týk");
+
+                    if (!leftparticle.isPlaying)
+                    {
+
+                        rightparticle.Stop();
+                        leftparticle.Play();
+                    }
                     leftSideTouched = true;
                 }
             }
@@ -51,8 +71,19 @@ public class CharMove : MonoBehaviour
                 if (Input.mousePosition.x > Screen.width / 2)
                 {
                     Debug.Log("sag týk");
+
+                    if (!rightparticle.isPlaying)
+                    {
+                        leftparticle.Stop();
+                        rightparticle.Play();
+                    }
                     rightSideTouched = true;
                 }
+            }
+            else
+            {
+                leftparticle.Stop();
+                rightparticle.Stop();
             }
         }
             if (rb.velocity.y > 0)

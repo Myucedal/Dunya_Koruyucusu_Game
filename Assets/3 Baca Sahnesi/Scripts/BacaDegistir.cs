@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BacaDegistir : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class BacaDegistir : MonoBehaviour
     public ParticleSystem particleconfeti;
     private float timer = 3f;
     public static BacaDegistir instance;
+    public int score = -1;
+    public Text scoretext;
     private void Awake()
     {
         instance = this;
@@ -21,7 +24,6 @@ public class BacaDegistir : MonoBehaviour
         if (collision.CompareTag("baca"))
         {
             incollision = true;
-            Debug.Log("bacada");
             CharMove.instance.upSpeed = 0;
             CharMove.instance.horizontalSpeed = 0;
             particlefix.transform.position = collision.transform.position;
@@ -56,10 +58,12 @@ public class BacaDegistir : MonoBehaviour
         }
         if (timer > 3 &&  incollision == true && timetree == false)
         {
-            Debug.Log("timer 3 oldu");
             particlefix.Stop();
             particleconfeti.Play();
+            score++;
+            scoretext.text = score.ToString();
             timetree = true;
+             GameManager3.instance.Gameover();
         }
 
 
@@ -88,7 +92,11 @@ public class BacaDegistir : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("bacadan cikti");
+
+        if (collision.CompareTag("baca"))
+        {
+            Destroy(collision.gameObject);
+        }
 
         CharMove.instance.upSpeed = 0.08f;
         CharMove.instance.horizontalSpeed = 0.03f;
