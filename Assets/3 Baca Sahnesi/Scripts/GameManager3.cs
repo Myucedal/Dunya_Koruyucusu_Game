@@ -1,64 +1,66 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager3 : MonoBehaviour
 {
     public static GameManager3 instance;
-    public GameObject paneldead;
-    public GameObject Gameoverpanel;
+    public GameObject DeathPanel;
+    public GameObject FinishPanel;
+    public GameObject player;
+    public GameObject rightButton, leftButton;
+    public GameObject tutorialHands;
     public Transform Maincam;
     public ParticleSystem particldead;
+    public int score;
+    public TextMeshProUGUI scoreText;
 
     private void Awake()
     {
         instance = this;
     }
-
-    
-
-    public void DiePlayer()
+    private void Start()
     {
-        Maincam.SetParent(null);
-        particldead.transform.position = CharMove.instance.rb.transform.position;
-        particldead.Play();
-        Destroy(CharMove.instance.rb.gameObject);
-        StartCoroutine(WaitDeadPanel());
-       
-
+        Destroy(tutorialHands, 3);
     }
-    public IEnumerator WaitDeadPanel()
+    public void KillPlayer()
+    {
+        Instantiate(particldead, player.transform.position, player.transform.rotation);
+        Destroy(player);
+        rightButton.SetActive(false);
+        leftButton.SetActive(false);
+        StartCoroutine(WaitDeathPanel());
+    }
+    public IEnumerator WaitDeathPanel()
     {
         yield return new WaitForSeconds(2f);
-        paneldead.SetActive(true);
+        DeathPanel.SetActive(true);
     }
     public IEnumerator WaitoverPanel()
     {
         yield return new WaitForSeconds(1.9f);
-        Gameoverpanel.SetActive(true);
+        FinishPanel.SetActive(true);
         Time.timeScale = 0;
     }
-   
+
     public void RestartGame()
     {
-        Debug.Log("restart calisti");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("0_AnaMenu");
-
     }
-
-    public void Gameover()
+    public void UpdateScore()
     {
-        if (BacaDegistir.instance.score == 5)
-        {
-            StartCoroutine(WaitoverPanel());
-        }
+        score++;
+        scoreText.text = score.ToString();
+    }
+    public void FinishGame()
+    {
+        StartCoroutine(WaitoverPanel());
     }
 }
-    
