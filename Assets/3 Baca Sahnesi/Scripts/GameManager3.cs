@@ -61,6 +61,8 @@ public class GameManager3 : MonoBehaviour
     }
     public void FinishGame()
     {
+        rightButton.SetActive(false);
+        leftButton.SetActive(false);
         StartCoroutine(WaitoverPanel());
     }
 }
