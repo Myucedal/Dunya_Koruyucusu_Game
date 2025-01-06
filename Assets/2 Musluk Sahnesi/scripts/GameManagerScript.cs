@@ -21,6 +21,20 @@ public class GameManagerScript : MonoBehaviour
         instance = this;
         audioSource = GetComponent<AudioSource>();
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            foreach (var water in waters)
+            {
+                if (water.activeSelf)
+                {
+                    water.SetActive(false);
+                }
+            }
+            WaterControl();
+        }
+    }
     public void WaterControl()
     {
         audioSource.PlayOneShot(faucetSound, 1f);

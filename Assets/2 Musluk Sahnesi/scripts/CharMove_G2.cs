@@ -23,6 +23,7 @@ public class CharMove_G2 : MonoBehaviour
     private bool isGrounded;
     private AudioSource audioSource;
     public AudioClip jumpSound;
+    public AudioClip jetSound;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -92,12 +93,13 @@ public class CharMove_G2 : MonoBehaviour
         {
             jumpCount++;
             rb.AddForce(new Vector2(0, jumpForce));
+            audioSource.PlayOneShot(jumpSound, 0.5f);
         }
         else if (jumpCount == 1)
         {
             rb.velocity = Vector2.zero;
             rb.AddForce(new Vector2(0, jumpForce));
-            audioSource.PlayOneShot(jumpSound, 1f);
+            audioSource.PlayOneShot(jetSound, 1f);
             jetpack.Play();
             Invoke(nameof(CloseJetpack), 1);
             jumpCount++;
@@ -108,19 +110,35 @@ public class CharMove_G2 : MonoBehaviour
     public void RightDown()
     {
         rightPressed = true;
+        if(isGrounded && !audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
     }
     public void RightUp()
     {
         rightPressed = false;
+        if(audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
 
     public void LeftDown()
     {
         leftPressed = true;
+        if (isGrounded && !audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
     }
     public void LeftUp()
     {
         leftPressed = false;
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
     private void CloseJetpack()
     {
