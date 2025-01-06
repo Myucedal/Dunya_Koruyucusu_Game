@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ParticleSystemController : MonoBehaviour
@@ -9,7 +10,7 @@ public class ParticleSystemController : MonoBehaviour
     {
         StartCoroutine(StartAndStopParticleSystem(1.2f)); // 2 saniyede duracak
     }
-
+   
     IEnumerator StartAndStopParticleSystem(float duration)
     {
         particleSystem.Play();
