@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour
 
         // Hedef pozisyon karakterin bulunduðu yer
         targetPosition.x = transform.position.x;
-        targetPosition.y = character.position.y  + 6;
+        targetPosition.y = character.position.y  + 2;
         targetPosition.z = transform.position.z;
 
         // Takip modu baþlangýçta kapalý
@@ -47,7 +47,7 @@ public class CameraController : MonoBehaviour
         else
         {
             // Kamera y ekseninde karakteri takip eder
-            transform.position = new Vector3(initialPosition.x, character.position.y + 6, initialPosition.z);
+            transform.position = new Vector3(initialPosition.x, character.position.y + 2, initialPosition.z);
         }
     }
 }

@@ -95,6 +95,7 @@ public class CharMove_G2 : MonoBehaviour
         }
         else if (jumpCount == 1)
         {
+            rb.velocity = Vector2.zero;
             rb.AddForce(new Vector2(0, jumpForce));
             audioSource.PlayOneShot(jumpSound, 1f);
             jumpCount++;
