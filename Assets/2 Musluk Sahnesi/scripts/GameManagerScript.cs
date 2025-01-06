@@ -15,27 +15,15 @@ public class GameManagerScript : MonoBehaviour
 
     private AudioSource audioSource;
     public AudioClip winSound;
+    public AudioClip faucetSound;
     private void Awake()
     {
         instance = this;
         audioSource = GetComponent<AudioSource>();
     }
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            foreach (var water in waters)
-            {
-                if (water.activeSelf)
-                {
-                    water.SetActive(false);
-                }
-            }
-            WaterControl();
-        }
-    }
     public void WaterControl()
     {
+        audioSource.PlayOneShot(faucetSound, 1f);
         waterCount = 0;
         foreach (var water in waters)
         {
