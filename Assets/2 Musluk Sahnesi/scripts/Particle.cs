@@ -14,7 +14,7 @@ public class Particle : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             gameObject.SetActive(false);
-            Debug.Log("E çalýþtý");
+            GameManagerScript.instance.WaterControl();
         }
     }
 }
