@@ -21,7 +21,8 @@ public class CharMove_G2 : MonoBehaviour
     private bool leftPressed = false;
 
     private bool isGrounded;
-
+    private AudioSource audioSource;
+    public AudioClip jumpSound;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +31,8 @@ public class CharMove_G2 : MonoBehaviour
         originalColor = jumpButton.GetComponent<Image>().color;
 
         jumpButton.onClick.AddListener(Jump);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -53,12 +56,12 @@ public class CharMove_G2 : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) 
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-
+            transform.eulerAngles = new Vector3(0, 0, 0);
         } 
         if (Input.GetKey(KeyCode.D)) 
         {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
         if(Input.GetKeyDown(KeyCode.Space))
@@ -68,12 +71,14 @@ public class CharMove_G2 : MonoBehaviour
 
         if (rightPressed)
         {
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+            transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
         if (leftPressed)
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
     }
 
@@ -91,6 +96,7 @@ public class CharMove_G2 : MonoBehaviour
         else if (jumpCount == 1)
         {
             rb.AddForce(new Vector2(0, jumpForce));
+            audioSource.PlayOneShot(jumpSound, 1f);
             jumpCount++;
             jumpButton.interactable = false;
         }
