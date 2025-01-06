@@ -19,7 +19,7 @@ public class CharMove_G2 : MonoBehaviour
 
     private bool rightPressed = false;
     private bool leftPressed = false;
-
+    public ParticleSystem jetpack;
     private bool isGrounded;
     private AudioSource audioSource;
     public AudioClip jumpSound;
@@ -53,18 +53,18 @@ public class CharMove_G2 : MonoBehaviour
             buttonImage.color = newColor;
         }
 
-        if (Input.GetKey(KeyCode.A)) 
+        if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
             transform.eulerAngles = new Vector3(0, 0, 0);
-        } 
-        if (Input.GetKey(KeyCode.D)) 
+        }
+        if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
         }
@@ -98,6 +98,8 @@ public class CharMove_G2 : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.AddForce(new Vector2(0, jumpForce));
             audioSource.PlayOneShot(jumpSound, 1f);
+            jetpack.Play();
+            Invoke(nameof(CloseJetpack), 1);
             jumpCount++;
             jumpButton.interactable = false;
         }
@@ -120,5 +122,8 @@ public class CharMove_G2 : MonoBehaviour
     {
         leftPressed = false;
     }
-
+    private void CloseJetpack()
+    {
+        jetpack.Stop();
+    }
 }

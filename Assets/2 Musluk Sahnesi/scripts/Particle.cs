@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Particle : MonoBehaviour
@@ -11,10 +12,16 @@ public class Particle : MonoBehaviour
     }
     void OnTriggerStay2D()
     {
+        print("fonksiyon");
         if (Input.GetKeyDown(KeyCode.E))
         {
+            print("E");
             gameObject.SetActive(false);
             GameManagerScript.instance.WaterControl();
         }
     }
+    //private void OnTriggerStay2D()
+    //{
+        
+    //}
 }
