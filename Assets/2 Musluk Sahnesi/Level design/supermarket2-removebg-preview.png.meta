@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: supermarket2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 264
+        width: 201
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2087f0ded1e79f94fb3397b67960cc9a
+      internalID: -556968573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 267
+        width: 162
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40dfe7597e3b9b4386487c6df07bc5c
+      internalID: -284483833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 360
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb509fbb2dcb76e45a36e42090834331
+      internalID: 533190517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 181
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c17fdbe9b4333c458d39c4b88773b59
+      internalID: 621698600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: supermarket2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 30
+        width: 175
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560fa700a685afa4fb07d9bc73dca177
+      internalID: -2019955065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +237,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      supermarket2-removebg-preview_0: -306623035
+      supermarket2-removebg-preview_1: -556968573
+      supermarket2-removebg-preview_10: 867834921
+      supermarket2-removebg-preview_11: 521096373
+      supermarket2-removebg-preview_12: 212894300
+      supermarket2-removebg-preview_13: -2019955065
+      supermarket2-removebg-preview_14: -444353618
+      supermarket2-removebg-preview_15: 1336975866
+      supermarket2-removebg-preview_16: 995146447
+      supermarket2-removebg-preview_17: -1797414838
+      supermarket2-removebg-preview_2: -284483833
+      supermarket2-removebg-preview_3: 533190517
+      supermarket2-removebg-preview_4: 868497075
+      supermarket2-removebg-preview_5: 1825998621
+      supermarket2-removebg-preview_6: 909054550
+      supermarket2-removebg-preview_7: 621698600
+      supermarket2-removebg-preview_8: 1514329998
+      supermarket2-removebg-preview_9: -967367740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

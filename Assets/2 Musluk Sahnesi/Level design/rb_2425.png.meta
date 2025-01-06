@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: rb_2425_0
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 663
+        width: 846
+        height: 1085
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7b65f8f21de484e98a1d8a43f3c491
+      internalID: -752837447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rb_2425_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 598
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca11bbda8e90b014fae8df4bd4cdaefc
+      internalID: 1043453474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rb_2425_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 31
+        width: 1660
+        height: 1691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e6888b8388a9c45923868a47ea9e15
+      internalID: -1121883524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rb_2425_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 641
+        width: 430
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50f36dea0b3d5049b2db4d97b22f212
+      internalID: -1695432740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rb_2425_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 264
+        height: 529
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439df7c6c8af22146ac7a8a65ea3cdc0
+      internalID: 1145142323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rb_2425_0: -752837447
+      rb_2425_1: 1043453474
+      rb_2425_10: -1042553781
+      rb_2425_11: -1200357753
+      rb_2425_12: -515984077
+      rb_2425_13: 728890946
+      rb_2425_14: -571456560
+      rb_2425_15: 36013819
+      rb_2425_16: 214953710
+      rb_2425_17: -839396036
+      rb_2425_18: -1297059396
+      rb_2425_19: -1087257237
+      rb_2425_2: -1121883524
+      rb_2425_20: -265853935
+      rb_2425_21: -678260494
+      rb_2425_22: -1903510018
+      rb_2425_23: 1214729170
+      rb_2425_24: 1145142323
+      rb_2425_25: 1603794695
+      rb_2425_26: 2077783542
+      rb_2425_27: 1635901138
+      rb_2425_28: 277335291
+      rb_2425_29: -1099451602
+      rb_2425_3: 1013934318
+      rb_2425_30: -1370079076
+      rb_2425_31: -1196916480
+      rb_2425_32: 1963661309
+      rb_2425_33: -438224081
+      rb_2425_34: 1988709863
+      rb_2425_4: -88331482
+      rb_2425_5: -1727022966
+      rb_2425_6: 1744247411
+      rb_2425_7: -1695432740
+      rb_2425_8: 894960841
+      rb_2425_9: 539825032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

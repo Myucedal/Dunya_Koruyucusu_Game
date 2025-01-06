@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 078e057c1ba3d9b45a229e1d7e9c8ebc
+guid: 6a38e5e863ebc77409a4be432cda6882
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,70 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: rb_130737_5
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 0
-        width: 672
-        height: 666
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d48d9b3787531fd47b0ad261cc9ca58e
-      internalID: 1427885870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rb_130737_9
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 4
-        width: 690
-        height: 650
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 20, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc1adaaef3521b645914e288a74c987a
-      internalID: 1628896144
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rb_130737_14
-      rect:
-        serializedVersion: 2
-        x: 1338
-        y: 23
-        width: 613
-        height: 633
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b56c1d79121ffb34c973f4cc0bdc1574
-      internalID: -592126782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -182,39 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      rb_130737_0: 1594160326
-      rb_130737_1: 1528681514
-      rb_130737_10: 1020177726
-      rb_130737_11: 1270451006
-      rb_130737_12: -2094123083
-      rb_130737_13: 2012354423
-      rb_130737_14: -592126782
-      rb_130737_15: 2029845543
-      rb_130737_16: -1702292662
-      rb_130737_17: 1937063562
-      rb_130737_18: -1239143318
-      rb_130737_19: -1405223227
-      rb_130737_2: 1006889177
-      rb_130737_20: -1497681691
-      rb_130737_21: 44165904
-      rb_130737_22: 1509422529
-      rb_130737_23: 2014203500
-      rb_130737_24: 501804479
-      rb_130737_25: -80752882
-      rb_130737_26: -676450330
-      rb_130737_27: -271157733
-      rb_130737_28: -600700307
-      rb_130737_29: 1181233560
-      rb_130737_3: 1965446949
-      rb_130737_30: -736555105
-      rb_130737_31: 1760162304
-      rb_130737_4: 553475661
-      rb_130737_5: 1427885870
-      rb_130737_6: 1847892094
-      rb_130737_7: 679841959
-      rb_130737_8: -875503454
-      rb_130737_9: 1628896144
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
