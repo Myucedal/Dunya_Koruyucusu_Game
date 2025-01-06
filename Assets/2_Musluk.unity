@@ -6031,7 +6031,7 @@ MonoBehaviour:
   jumpButton: {fileID: 46293802}
   RightButton: {fileID: 86997103}
   LeftButton: {fileID: 1717778000}
-  jumpForce: 600
+  jumpForce: 450
   jumpCount: 0
   moveSpeed: 7
   newColor: {r: 1, g: 0, b: 0, a: 1}
@@ -6039,7 +6039,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   jetpack: {fileID: 1047968676}
-  jumpSound: {fileID: 8300000, guid: 65f68b1bf089b3d4692eed526889753a, type: 3}
+  jumpSound: {fileID: 8300000, guid: 87ebb0c6169cbfb46be7f43002db4452, type: 3}
+  jetSound: {fileID: 8300000, guid: 65f68b1bf089b3d4692eed526889753a, type: 3}
 --- !u!61 &983135383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16415,7 +16416,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96d57a592453b624893e75483c9175b2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
@@ -16607,7 +16608,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96d57a592453b624893e75483c9175b2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
@@ -16703,7 +16704,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96d57a592453b624893e75483c9175b2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
@@ -16799,7 +16800,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96d57a592453b624893e75483c9175b2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
@@ -40053,7 +40054,7 @@ GameObject:
   - component: {fileID: 861634449}
   - component: {fileID: 861634452}
   - component: {fileID: 861634453}
-  - component: {fileID: 8129385957364185944}
+  - component: {fileID: 8129385957364185945}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -40130,7 +40131,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!82 &8129385957364185944
+--- !u!82 &8129385957364185945
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40140,11 +40141,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9231182cbb624264f8163f42ea57b01b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
